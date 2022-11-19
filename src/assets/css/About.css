@@ -1,44 +1,28 @@
-
-
-.title-font {
-    font-weight: 700;
-    margin-bottom: 1.25rem;
-    font-size: 40px;
-    
+.about_title {
+    font-weight: 1000;
+    margin: 3.25rem 1.25rem 2.25rem 1.25rem;
+    font-size: 40px; 
+}
+.description-text {
+    font-weight: 400;
+    margin: 0rem 1.25rem 1.25rem 1.25rem;
+    font-size: 17px; 
 }
 
-.about-photo {
+/* .about-photo {
     margin: auto;
     float: right;   
-}
+} */
 
 @media screen and (max-width: 768px){
-    .about-photo {
+    /* .about-photo {
         margin-left: 15px;
         max-width: 390px;
         max-height: auto;
-    }
+    } */
     .title-font {
         flex-wrap: wrap;
         align-items: left;
         justify-content: left;
-    }
-    
-    
-    .content_footer{
-       flex-wrap: wrap;
-       justify-content: left;
-    }
-    .footer_bottom{
-       flex-wrap: wrap;
-       justify-content: center;
-    }
-    .collegeurl_navgitation{
-       flex-wrap: wrap;
-       justify-content: left;
-    }
-    .profile{
-       flex-wrap: wrap;
-       justify-content: right;
     }
  }
