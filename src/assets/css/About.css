@@ -1,0 +1,44 @@
+
+
+.title-font {
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+    font-size: 40px;
+    
+}
+
+.about-photo {
+    margin: auto;
+    float: right;   
+}
+
+@media screen and (max-width: 768px){
+    .about-photo {
+        margin-left: 15px;
+        max-width: 390px;
+        max-height: auto;
+    }
+    .title-font {
+        flex-wrap: wrap;
+        align-items: left;
+        justify-content: left;
+    }
+    
+    
+    .content_footer{
+       flex-wrap: wrap;
+       justify-content: left;
+    }
+    .footer_bottom{
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+    .collegeurl_navgitation{
+       flex-wrap: wrap;
+       justify-content: left;
+    }
+    .profile{
+       flex-wrap: wrap;
+       justify-content: right;
+    }
+ }
