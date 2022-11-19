@@ -1,0 +1,7 @@
+.progress_bar {
+    margin-top: 1.25rem;
+    justify-content: space-around;
+    display: flex;
+    margin-left: 7rem;
+    margin-right: 7rem;
+}

@@ -75,3 +75,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 dependencies
 1. react bootstrap --buttions
 2. boxicons
+3. tailwind css
