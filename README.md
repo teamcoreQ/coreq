@@ -76,3 +76,7 @@ dependencies
 1. react bootstrap --buttions
 2. boxicons
 3. tailwind css
+more dependencies
+4.react-router-dom
+5.--save styled-components
+6.react-icons
