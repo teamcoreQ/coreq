@@ -1,5 +1,4 @@
 import React from 'react';
-// import '../../src/assets/css/Footer.css';
 import Logo from "../../src/assets/img/Logo.png";
 import CCMT_logo from "../../src/assets/img/CCMT_logo.png";
 

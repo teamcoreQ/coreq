@@ -4,7 +4,7 @@ export default function Mission(props) {
     return (
         <>
             <section className="text-gray-600 body-font">
-                <div className="container px-5 py-24 mx-auto flex flex-wrap">
+                <div className="container px-5 py-14 mx-auto flex flex-wrap">
 
                     <div className="flex flex-col text-center w-full mb-2">
                         <h1 className="text-4xl font-bold title-font mb-4 text-gray-900">Our Mission</h1>
