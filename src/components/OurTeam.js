@@ -7,7 +7,7 @@ export default function OurTeam() {
                 <div className="container px-5 py-24 mx-auto">
                     <div className="flex flex-col text-center w-full mb-10">
                         <h1 className="text-3xl font-bold title-font mb-4 text-gray-900">The Executive Team</h1>
-                        <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.</p>
+                        <p className="lg:w-2/4 mx-auto leading-relaxed text-base">A team is not a group of people that work together. A team is a group of people that trust each other.</p>
                     </div>
                     <div className="flex flex-wrap -m-4">
                         

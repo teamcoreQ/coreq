@@ -1,7 +1,8 @@
 import { useState } from "react"
-import '../../src/assets/css/header.css';
+import '../../src/assets/css/Header.css';
+import PropTypes from 'prop-types';
 
-export default function Header() {
+export default function Header(props) {
   const [isNavExpanded, setIsNavExpanded] = useState(false)
 
   return (
@@ -37,7 +38,7 @@ export default function Header() {
       >
         <ul>
           <li>
-            <a  href="/About">About</a>
+            <a href="/About">About</a>
           </li>
           <li>
             <a href="/about">Mission</a>
@@ -49,10 +50,11 @@ export default function Header() {
             <a href="/contact">contact</a>
           </li>
         </ul>
-
-        <button className="btn" type="submit">Join us</button>
+        <a className="btn" href={props.link} target="_blank">
+          <button type="submit">Join Us</button>
+        </a>
 
       </div>
-    </nav>
+    </nav >
   );
 }

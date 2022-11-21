@@ -22,8 +22,8 @@ export default function Mission(props) {
                                 </svg>
                             </div>
                             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                                <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Shooting Stars</h2>
-                                <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+                                <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Virtual-Real World</h2>
+                                <p className="leading-relaxed">Real world opppertuinities / leadership skill develop, etc etc type of guff</p>
                             </div>
                         </div>
                     </div>
@@ -39,8 +39,8 @@ export default function Mission(props) {
                                 </svg>
                             </div>
                             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                                <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">The Catalyzer</h2>
-                                <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+                                <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Foundational Knowledge</h2>
+                                <p className="leading-relaxed">Algorithms ko help hamle kk garna sakxau testo type ko</p>
                             </div>
                         </div>
                     </div>
@@ -57,8 +57,8 @@ export default function Mission(props) {
                                 </svg>
                             </div>
                             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                                <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">The 400 Blows</h2>
-                                <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+                                <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Pair Programming</h2>
+                                <p className="leading-relaxed">Like interested mind lai connect garna sakxau, tesle garda sabai jana ko growth hunxa</p>
                             </div>
                         </div>
                     </div>
@@ -75,8 +75,8 @@ export default function Mission(props) {
                                 </svg>
                             </div>
                             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                                <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Neptune</h2>
-                                <p className="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.</p>
+                                <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Exposure</h2>
+                                <p className="leading-relaxed">Basic exploration of every field of Computer Science</p>
                             </div>
                         </div>
                     </div>
