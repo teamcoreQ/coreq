@@ -8,7 +8,7 @@ export default function Programs() {
 
                     <div className="flex flex-col text-center w-full mb-10 mt-10">
                         <h1 className="text-4xl font-bold title-font mb-4 text-gray-900">Programs</h1>
-                        <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.</p>
+                        <p className="lg:w-2/3 mx-auto leading-relaxed text-base">yesma chai hamle participate gareko ra hamle kasto events/program conduct garauxau tyo aanusar lekhxau    </p>
                     </div>
 
                     <div className="flex flex-wrap -m-4">

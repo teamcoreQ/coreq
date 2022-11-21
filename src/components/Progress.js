@@ -9,27 +9,30 @@ export default function Progress(props) {
                 <div class="progress_bar container px-5 mx-auto">
                     <div class="flex flex-wrap -m-4 text-center">
                         <div class="p-4 sm:w-1/4 w-1/2">
-                            <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">2.7K</h2>
-                            <p class="leading-relaxed">Users</p>
+                            <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">{props.projects}</h2>
+                            <p class="leading-relaxed">Projects</p>
                         </div>
                         <div class="p-4 sm:w-1/4 w-1/2">
-                            <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">1.8K</h2>
-                            <p class="leading-relaxed">Subscribes</p>
+                            <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">{props.programs}</h2>
+                            <p class="leading-relaxed">Programs</p>
                         </div>
                         <div class="p-4 sm:w-1/4 w-1/2">
-                            <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">35</h2>
-                            <p class="leading-relaxed">Downloads</p>
+                            <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">{props.members}</h2>
+                            <p class="leading-relaxed">Members</p>
                         </div>
                         <div class="p-4 sm:w-1/4 w-1/2">
-                            <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">4</h2>
+                            <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">{props.products}</h2>
                             <p class="leading-relaxed">Products</p>
                         </div>
                     </div>
                 </div>
             </section>
-
-
-
         </>
     )
+}
+Progress.defaultProps={
+    projects: '0',
+    programs: '0',
+    members: '0',
+    products: '0',
 }
