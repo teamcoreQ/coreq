@@ -11,7 +11,7 @@ import HODMessage from './components/HODMessage';
 function App() {
   return (
     <>
-      {/* <Header/> */}
+      <Header/>
       <About link="https://forms.gle/Nv4MvLyhk8sogRKz6" />
       <Progress />
       <Mission />
