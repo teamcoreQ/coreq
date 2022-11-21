@@ -12,13 +12,13 @@ function App() {
   return (
     <>
       {/* <Header/> */}
-      {/* <About link="https://forms.gle/Nv4MvLyhk8sogRKz6" />
+      <About link="https://forms.gle/Nv4MvLyhk8sogRKz6" />
       <Progress />
       <Mission />
       <Programs />
       <OurTeam />
       <HODMessage />
-      <Footer />  */}
+      <Footer /> 
     </>
   );
 }
