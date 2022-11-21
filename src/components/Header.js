@@ -51,7 +51,7 @@ export default function Header(props) {
           </li>
         </ul>
         <a className="btn" href={props.link} target="_blank">
-          <button type="submit">Join us</button>
+          <button type="submit">Join Us</button>
         </a>
 
       </div>
