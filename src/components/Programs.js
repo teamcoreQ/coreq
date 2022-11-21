@@ -4,7 +4,7 @@ export default function Programs() {
     return (
         <>
             <section className="text-gray-600 body-font">
-                <div className="container px-5 py-24 mx-auto">
+                <div className="container px-5 py-10 mx-auto">
 
                     <div className="flex flex-col text-center w-full mb-10 mt-10">
                         <h1 className="text-4xl font-bold title-font mb-4 text-gray-900">Programs</h1>
