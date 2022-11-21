@@ -5,9 +5,11 @@ import CCMT_logo from "../../src/assets/img/CCMT_logo.png";
 import { FiMail, FiPhoneCall, FiMapPin } from "react-icons/fi";
 import { BsFacebook, BsInstagram, BsLinkedin, BsGithub } from "react-icons/bs";
 
+import PropTypes from 'prop-types';
 
 
-export default function Footer() {
+
+export default function Footer(props) {
     return (
         // <>
         // {/* footer starts here  */}
@@ -125,7 +127,7 @@ export default function Footer() {
                                 <img src={Logo} alt="CCMT_logo" width="104" height="50.75" />
                             </a>
 
-                            <p class="mt-2 text-sm text-gray-500">Air plant banjo lyft occupy retro adaptogen indego</p>
+                            <p class="mt-2 text-sm text-gray-500">{props.description}</p>
                         </div>
 
 
@@ -134,7 +136,7 @@ export default function Footer() {
                             <nav className="list-none mb-6 text-left display-inline">
                                 <li>
                                     <a className="text-gray-600 hover:text-gray-800 pl-2" ><FiPhoneCall className="mr-2" style={{ display: "inline-block" }} />
-                                        +977 98XXXXXXXXXX
+                                        {props.phone_no}
                                     </a>
                                 </li>
                                 <li>
@@ -170,7 +172,7 @@ export default function Footer() {
                     <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
 
                         <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">
-                            © 2022-coreQ
+                            {props.copyright}
                         </p>
                         <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
                             
@@ -184,4 +186,10 @@ export default function Footer() {
             </footer>
         </>
     )
+}
+
+Footer.defaultProps={
+    phone_no : '+977 98XXXXXXXXXX',
+    description : 'Air plant banjo lyft occupy retro adaptogen indego',
+    copyright : '© 2022-coreQ'
 }
