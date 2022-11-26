@@ -1,6 +1,11 @@
 import React from 'react';
+import '../../src/assets/css/Mission.css';
+import ReadMoreReact from 'read-more-react';
+
+
 
 export default function Mission(props) {
+    let readMoreText = <u>Read More</u>;
     return (
         <>
             <section className="text-gray-600 body-font">
@@ -23,7 +28,12 @@ export default function Mission(props) {
                             </div>
                             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Virtual-Real World</h2>
-                                <p className="leading-relaxed">Real world opppertuinities / leadership skill develop, etc etc type of guff</p>
+                                <p className="leading-relaxed"><ReadMoreReact text={'If you change your mindset, you have the ability to change your whole world and it’s  a right time to grasp the change  in a computer simulated environment. In a virtual world ,the user accesses a computer simulated world which presents perceptual stimuli to the user, who in turn can manipulate elements of the modeled world and thus experience a degree of presence. We are with the mission of adapting and enhancing the concept of simulated environment and make a better mirror world for us.'}
+                                    min={90}
+                                    ideal={120}
+                                    max={1600}
+                                    readMoreText={readMoreText} /></p>
+
                             </div>
                         </div>
                     </div>
@@ -40,7 +50,11 @@ export default function Mission(props) {
                             </div>
                             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Foundational Knowledge</h2>
-                                <p className="leading-relaxed">Algorithms ko help hamle kk garna sakxau testo type ko</p>
+                                <p className="leading-relaxed"><ReadMoreReact text={'The facts, theories, principles, methods, skills, terminology and modes of reasoning that are essential to more advanced or independent learning in an academic discipline. For the exploration of your lower-order cognitive skills to a higher dimension synchronize yourself with us to get a dynamic algorithm.'}
+                                    min={90}
+                                    ideal={120}
+                                    max={1600}
+                                    readMoreText={readMoreText} /></p>
                             </div>
                         </div>
                     </div>
@@ -58,7 +72,11 @@ export default function Mission(props) {
                             </div>
                             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Pair Programming</h2>
-                                <p className="leading-relaxed">Like interested mind lai connect garna sakxau, tesle garda sabai jana ko growth hunxa</p>
+                                <p className="leading-relaxed"><ReadMoreReact text={'Pair programming is an agile software development technique in which two programmers work together at one workstation. One, the driver, writes code while the other, the observer or navigator, reviews each line of code as it is typed in. The two programmers switch roles frequently and if you need  a navigator or coder in your workstation coreQ is willing to be your Pair Programmer.'}
+                                    min={90}
+                                    ideal={120}
+                                    max={1600}
+                                    readMoreText={readMoreText} /></p>
                             </div>
                         </div>
                     </div>
@@ -76,7 +94,7 @@ export default function Mission(props) {
                             </div>
                             <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">Exposure</h2>
-                                <p className="leading-relaxed">Basic exploration of every field of Computer Science</p>
+                                <p className="leading-relaxed">Basic exploration of every field of Computer Science.</p>
                             </div>
                         </div>
                     </div>
