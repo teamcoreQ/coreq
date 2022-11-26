@@ -190,6 +190,6 @@ export default function Footer(props) {
 
 Footer.defaultProps={
     phone_no : '+977 98XXXXXXXXXX',
-    description : 'Air plant banjo lyft occupy retro adaptogen indego',
+    description : 'Education for Technology',
     copyright : '© 2022-coreQ'
 }
