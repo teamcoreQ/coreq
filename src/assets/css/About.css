@@ -1,7 +1,12 @@
-.about_title {
+.about-title {
     font-weight: 1000;
     margin: 3.25rem 1.25rem 2.25rem 1.25rem;
     font-size: 40px; 
+}
+.about-title2 {
+    font-weight: 400;
+    margin: 0rem 1.25rem 0rem 1.25rem;
+    font-size: 17px; 
 }
 .description-text {
     font-weight: 400;

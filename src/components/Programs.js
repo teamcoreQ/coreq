@@ -1,6 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-export default function Programs() {
+// For loading Component 
+import ReactLoading from 'react-loading';
+
+
+
+export default function Programs(props) {
     return (
         <>
             <section className="text-gray-600 body-font">
@@ -8,11 +13,23 @@ export default function Programs() {
 
                     <div className="flex flex-col text-center w-full mb-10 mt-10">
                         <h1 className="text-4xl font-bold title-font mb-4 text-gray-900">Programs</h1>
-                        <p className="lg:w-2/3 mx-auto leading-relaxed text-base">yesma chai hamle participate gareko ra hamle kasto events/program conduct garauxau tyo aanusar lekhxau    </p>
+
+                        {/* This code will be uncommented when program will added  */}
+                        {/* <p className="lg:w-2/3 mx-auto leading-relaxed text-base">yesma chai hamle participate gareko ra hamle kasto events/program conduct garauxau tyo aanusar lekhxau    </p> */}
+
+
                     </div>
 
-                    <div className="flex flex-wrap -m-4">
-                        <div className="p-4 md:w-1/3">
+                    <div className="flex flex-wrap -m-4 justify-center">
+
+                        {/* For loading components from ReactLoading, justify-center class is added when adding react loading component */}
+                        <ReactLoading type='bars' color='#EF4444' height={'20%'} width={'20%'} />
+                        <div className="flex flex-col text-center w-full mt-2">
+                            <h1 className="lg:w-2/3 mx-auto leading-relaxed text-base">COMMING SOON!</h1>
+                        </div>
+
+                        {/* This code will be uncommented when progarms will added  */}
+                        {/* <div className="p-4 md:w-1/3">
                             <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                                 <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="blog" />
                                 <div className="p-6">
@@ -98,7 +115,9 @@ export default function Programs() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
+
+
                     </div>
                 </div>
             </section>

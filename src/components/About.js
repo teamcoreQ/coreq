@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import '../../src/assets/css/About.css';
-import about_section_photo from '../../src/assets/img/AboutSectionPhoto.webp'
+import about_section_photo from '../../src/assets/img/AboutSectionPhoto.webp';
+
 
 export default function About(props) {
     const clickLink = () => {
@@ -29,9 +30,10 @@ export default function About(props) {
             <section className="text-gray-600 body-font">
                 <div className="container mx-auto flex px-5 md:flex-row flex-col items-center">
                     <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-left">
-                        <h1 className="about_title sm:text-4xl text-3xl mb-4 font-medium text-gray-900">{props.about_title_1}
-                            <p className="text-success">{props.about_title_2}</p>
+                        <h1 className="about-title sm:text-4xl text-3xl mb-2 font-medium text-gray-900">{props.about_title_1}
+                           
                         </h1>
+                        <p className="about-title2 text-success">{props.about_title_2}</p>
                         <p className="description-text mb-8 leading-relaxed">{props.about_description}</p>
                         <div className="description-text flex justify-center">
                             <a href={props.link} target="_blank">
