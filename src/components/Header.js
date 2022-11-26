@@ -1,5 +1,6 @@
 import { useState } from "react"
 import '../../src/assets/css/Header.css';
+import Logo from "../../src/assets/img/Logo.png";
 import PropTypes from 'prop-types';
 
 export default function Header(props) {
@@ -7,9 +8,12 @@ export default function Header(props) {
 
   return (
     <nav className="navigation">
-      <a href="/" className="brand-name">
+      {/* <a href="/" className="brand-name">
         Core<span>Q</span>
-      </a>
+      </a> */}
+      < a className="ml-7 lg-1/3" >
+        <img src={Logo} alt="coreQ_logo" width="84" height="36.75" />
+      </a >
 
       <button
         className="hamburger"
