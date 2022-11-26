@@ -1,6 +1,5 @@
 import React from 'react';
 // import ScriptTag from 'react-script-tag';
-import { Helmet } from "react-helmet";
 import { BsChevronDoubleDown } from "react-icons/bs";
 
 // importing custom css 
@@ -396,9 +395,6 @@ export default function OurTeam() {
 
                 </div>
             </section>
-            <Helmet>
-                <script src="./LoadMoreButton.js" type="text/javascript" />
-            </Helmet>
         </>
     )
 }
