@@ -3,7 +3,7 @@
     height: 80px;
     width: 100%;
     align-items: center;
-    position: fixed;
+    position: sticky;
     padding: 0.5rem 2rem;
     background-color: #f7f7f7;
     color: black;
@@ -42,11 +42,13 @@
     margin: 0 1rem;
 }
 
-.navigation-menu li a {
-    /* increases the surface area of the anchor tag to span more than just the anchor text */
-    text-decoration: none;
-    display: block;
-    width: 100%;
+:where(.css-dev-only-do-not-override-1r7tc63).ant-anchor-wrapper .ant-anchor .ant-anchor-ink-ball {
+    position: absolute;
+    left: 0;
+    transform: translateY(-50%);
+    transition: top 0.3s ease-in-out;
+    width: 2px;
+    background-color: #f7f7f7;
 }
 
 .hamburger {

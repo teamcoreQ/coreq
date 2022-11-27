@@ -3,7 +3,7 @@ import React from 'react';
 export default function Mission(props) {
     return (
         <>
-            <section className="text-gray-600 body-font">
+            <section id="mission" className="text-gray-600 body-font">
                 <div className="container px-5 py-14 mx-auto flex flex-wrap">
 
                     <div className="flex flex-col text-center w-full mb-2">

@@ -1,12 +1,15 @@
-import { useState } from "react"
+import { useState } from "react";
 import '../../src/assets/css/Header.css';
-import PropTypes from 'prop-types';
+
+import { Anchor } from 'antd';
+
+const { Link } = Anchor;
 
 export default function Header(props) {
   const [isNavExpanded, setIsNavExpanded] = useState(false)
 
   return (
-    <nav className="navigation">
+    <nav id="header" className="navigation">
       <a href="/" className="brand-name">
         Core<span>Q</span>
       </a>
@@ -36,25 +39,20 @@ export default function Header(props) {
           isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
         }
       >
-        <ul>
-          <li>
-            <a href="/About">About</a>
-          </li>
-          <li>
-            <a href="/about">Mission</a>
-          </li>
-          <li>
-            <a href="/contact">Our team</a>
-          </li>
-          <li>
-            <a href="/contact">contact</a>
-          </li>
-        </ul>
+        <Anchor>
+          <ul>
+            <li><Link href="#about" title="About" /></li>
+            <li><Link href="#mission" title="Mission" /></li>
+            <li><Link href="#our team" title="Our team" /></li>
+            <li><Link href="#footer" title="Contact" /></li>
+          </ul>
+        </Anchor>
         <a className="btn" href={props.link} target="_blank">
           <button type="submit">Join Us</button>
         </a>
 
       </div>
     </nav >
+
   );
 }
