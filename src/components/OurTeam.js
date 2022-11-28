@@ -66,7 +66,7 @@ export default function OurTeam() {
                                 <div className="w-full">
                                     <h2 className="title-font font-medium text-lg text-gray-900">Ujjwal Dhakal</h2>
                                     <h3 className="text-gray-500 mb-3">President</h3>
-                                    <p className="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+                                    <p className="mb-4">BE IT<br/>Batch 2020</p>
                                     <span className="inline-flex">
                                         <a className="text-gray-500" href='https://www.facebook.com/fb.ujjwal/' target='_blank'>
                                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
