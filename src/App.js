@@ -21,7 +21,7 @@ To leave the world a little better than you found it join us. "/>
       <Programs />
       <OurTeam />
       <Partners />
-      {/* <HODMessage /> */}
+      <HODMessage />
       <Footer />
     </>
   );

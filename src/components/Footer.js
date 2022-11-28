@@ -14,7 +14,7 @@ export default function Footer(props) {
         <>
             <footer id="footer" className="container text-gray-600 body-font mt-10">
                 <div className="container px-5 py-6 mx-auto">
-                    <div className="flex flex-wrap md:text-left text-center order-first content-center" >
+                    <div className="flex flex-wrap md:text-left text-center order-first content-center justify-center" >
 
                         <div class="flex-shrink-0 md:mx-0 mx-auto text-center md:text-left mb-6">
                             <a className="ml-7 lg-1/3">
