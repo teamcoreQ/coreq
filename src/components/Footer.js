@@ -12,7 +12,7 @@ import PropTypes from 'prop-types';
 export default function Footer(props) {
     return (
         <>
-            <footer className="container text-gray-600 body-font">
+            <footer id="footer" className="container text-gray-600 body-font">
                 <div className="container px-5 py-6 mx-auto">
                     <div className="flex flex-wrap md:text-left text-center order-first content-center" >
 
