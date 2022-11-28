@@ -8,7 +8,7 @@ import ReactLoading from 'react-loading';
 export default function Programs(props) {
     return (
         <>
-            <section className="text-gray-600 body-font">
+            <section id="programs" className="text-gray-600 body-font">
                 <div className="container px-5 py-10 mx-auto">
 
                     <div className="flex flex-col text-center w-full mb-10 mt-10">
