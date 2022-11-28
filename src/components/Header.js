@@ -47,11 +47,12 @@ export default function Header(props) {
           <ul>
             <li><Link href="#about" title="About" /></li>
             <li><Link href="#mission" title="Mission" /></li>
+            <li><Link href="#programs" title="Programs" /></li>
             <li><Link href="#our team" title="Our team" /></li>
             <li><Link href="#footer" title="Contact" /></li>
           </ul>
         </Anchor>
-        
+
         <a className="btn" href={props.link} target="_blank">
           <button type="submit">Join Us</button>
         </a>
