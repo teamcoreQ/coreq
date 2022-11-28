@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/coreQ/static/css/main.905de90f.css",
-    "main.js": "/coreQ/static/js/main.fa89814a.js",
-    "static/js/787.04c33c02.chunk.js": "/coreQ/static/js/787.04c33c02.chunk.js",
-    "static/media/president.png": "/coreQ/static/media/president.b6052c967233f20e70e4.png",
-    "static/media/webmaster.png": "/coreQ/static/media/webmaster.7a4b2ed0eacc1972c72c.png",
-    "static/media/creative_lead.png": "/coreQ/static/media/creative_lead.aa023885ac8d45bbb9e6.png",
-    "static/media/cto.png": "/coreQ/static/media/cto.ae53f2e61965070177c3.png",
-    "static/media/communication_manager.jpg": "/coreQ/static/media/communication_manager.401093afc102ade79e69.jpg",
-    "static/media/CCMT_logo.png": "/coreQ/static/media/CCMT_logo.5801dfe865a145e6004e.png",
-    "static/media/project_manager.png": "/coreQ/static/media/project_manager.cbe538745e68164fdfb0.png",
-    "static/media/vp.png": "/coreQ/static/media/vp.e36f967711cb9c89efb7.png",
-    "static/media/AboutSectionPhoto.webp": "/coreQ/static/media/AboutSectionPhoto.c35e37a5bfc4dfeda884.webp",
-    "static/media/SEDS_Cosmos.png": "/coreQ/static/media/SEDS_Cosmos.c23a813341fdb77d4f91.png",
-    "index.html": "/coreQ/index.html",
-    "main.905de90f.css.map": "/coreQ/static/css/main.905de90f.css.map",
-    "main.fa89814a.js.map": "/coreQ/static/js/main.fa89814a.js.map",
-    "787.04c33c02.chunk.js.map": "/coreQ/static/js/787.04c33c02.chunk.js.map"
+    "main.css": "/coreq/static/css/main.905de90f.css",
+    "main.js": "/coreq/static/js/main.00075d39.js",
+    "static/js/787.04c33c02.chunk.js": "/coreq/static/js/787.04c33c02.chunk.js",
+    "static/media/president.png": "/coreq/static/media/president.b6052c967233f20e70e4.png",
+    "static/media/webmaster.png": "/coreq/static/media/webmaster.7a4b2ed0eacc1972c72c.png",
+    "static/media/creative_lead.png": "/coreq/static/media/creative_lead.aa023885ac8d45bbb9e6.png",
+    "static/media/cto.png": "/coreq/static/media/cto.ae53f2e61965070177c3.png",
+    "static/media/communication_manager.jpg": "/coreq/static/media/communication_manager.401093afc102ade79e69.jpg",
+    "static/media/CCMT_logo.png": "/coreq/static/media/CCMT_logo.5801dfe865a145e6004e.png",
+    "static/media/project_manager.png": "/coreq/static/media/project_manager.cbe538745e68164fdfb0.png",
+    "static/media/vp.png": "/coreq/static/media/vp.e36f967711cb9c89efb7.png",
+    "static/media/AboutSectionPhoto.webp": "/coreq/static/media/AboutSectionPhoto.c35e37a5bfc4dfeda884.webp",
+    "static/media/SEDS_Cosmos.png": "/coreq/static/media/SEDS_Cosmos.c23a813341fdb77d4f91.png",
+    "index.html": "/coreq/index.html",
+    "main.905de90f.css.map": "/coreq/static/css/main.905de90f.css.map",
+    "main.00075d39.js.map": "/coreq/static/js/main.00075d39.js.map",
+    "787.04c33c02.chunk.js.map": "/coreq/static/js/787.04c33c02.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.905de90f.css",
-    "static/js/main.fa89814a.js"
+    "static/js/main.00075d39.js"
   ]
 }
