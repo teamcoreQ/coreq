@@ -1,7 +1,7 @@
 {
   "name": "coreq",
   "version": "0.1.0",
-  "homepage": "https://teamcoreQ.github.io/coreQ",
+  "homepage": "https://teamcoreq.github.io/coreq",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.7.4",
