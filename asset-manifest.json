@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/coreQ/static/css/main.905de90f.css",
+    "main.js": "/coreQ/static/js/main.8f14ad29.js",
+    "static/js/787.04c33c02.chunk.js": "/coreQ/static/js/787.04c33c02.chunk.js",
+    "static/media/president.png": "/coreQ/static/media/president.b6052c967233f20e70e4.png",
+    "static/media/graphic_designer.png": "/coreQ/static/media/graphic_designer.aa023885ac8d45bbb9e6.png",
+    "static/media/cto.png": "/coreQ/static/media/cto.ae53f2e61965070177c3.png",
+    "static/media/CCMT_logo.png": "/coreQ/static/media/CCMT_logo.5801dfe865a145e6004e.png",
+    "static/media/project_manager.png": "/coreQ/static/media/project_manager.cbe538745e68164fdfb0.png",
+    "static/media/vp.png": "/coreQ/static/media/vp.e36f967711cb9c89efb7.png",
+    "static/media/AboutSectionPhoto.webp": "/coreQ/static/media/AboutSectionPhoto.c35e37a5bfc4dfeda884.webp",
+    "static/media/SEDS_Cosmos.png": "/coreQ/static/media/SEDS_Cosmos.c23a813341fdb77d4f91.png",
+    "index.html": "/coreQ/index.html",
+    "main.905de90f.css.map": "/coreQ/static/css/main.905de90f.css.map",
+    "main.8f14ad29.js.map": "/coreQ/static/js/main.8f14ad29.js.map",
+    "787.04c33c02.chunk.js.map": "/coreQ/static/js/787.04c33c02.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.905de90f.css",
+    "static/js/main.8f14ad29.js"
+  ]
+}
