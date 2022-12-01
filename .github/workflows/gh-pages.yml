@@ -2,7 +2,8 @@
 name: Build and Deploy coreQ's site to Github Pages
 on:
   push:
-    branches[ master ]
+    branches:
+      - master
   jobs:
     build-and-deploy:
       name: Build and Deploy
