@@ -4,23 +4,23 @@ on:
   push:
     branches:
       - master
-  jobs:
-    build-and-deploy:
-      name: Build and Deploy
-      run-on: ubuntu-latest
-      steps:
-      - name: Checkout
-        uses: action/checkout@v2
-      
-      - name: Build
-        run: npm install
+    jobs:
+      build-and-deploy:
+        name: Build and Deploy
+        run-on: ubuntu-latest
+        steps:
+        - name: Checkout
+          uses: action/checkout@v2
+        
+        - name: Build
+          run: npm install
 
-      # - name: Test
-      #   run: npm run test
+        # - name: Test
+        #   run: npm run test
 
-      - name: Deploy
-        run: |
-          git config --global user.name 'ujjwalnp'
-          git config --global user.email 'dhakalujjwal99@gmail.com'
-          git remote set-url origin http://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          npm run deploy
+        - name: Deploy
+          run: |
+            git config --global user.name 'ujjwalnp'
+            git config --global user.email 'dhakalujjwal99@gmail.com'
+            git remote set-url origin http://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+            npm run deploy
