@@ -9,32 +9,32 @@ on:
     branches:
       - master
     
-  jobs:
-    build-and-deploy:
-      name: Build and Deploy
-      run-on: ubuntu-latest
-      steps:
-      - name: Checkout code
-        uses: action/checkout@v2
-      
-      - name: Install Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: 16.x
+jobs:
+  build-and-deploy:
+    name: Build and Deploy
+    run-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: action/checkout@v2
+    
+    - name: Install Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: 16.x
+ 
+    - name: Install npm packages
+      run: npm install
 
-      - name: Install npm packages
-        run: npm install
+    - name: Build
+      run: npm run build
 
-      - name: Build
-        run: npm run build
-        
 
       # - name: Test
       #   run: npm run test
 
-      - name: Deploy
-        run: |
-          git config --global user.name 'ujjwalnp'
-          git config --global user.email 'dhakalujjwal99@gmail.com'
-          git remote set-url origin http://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          npm run deploy
+    - name: Deploy
+      run: |
+        git config --global user.name 'ujjwalnp'
+        git config --global user.email 'dhakalujjwal99@gmail.com'
+        git remote set-url origin http://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+        npm run deploy
