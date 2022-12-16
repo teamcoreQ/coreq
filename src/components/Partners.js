@@ -21,7 +21,7 @@ export default function Partners(props) {
                                         <img className="object-cover object-center rounded " alt="hult_ccmt_logo" width="100" height="100" src={hult_cosmos_logo} />
                                     </a>
                                 </div>
-                                <p className="leading-relaxed">Hult Prize OnCampus</p>
+                                <p className="leading-relaxed">Hult Prize Foundation</p>
                             </div>
                         </div>
 
