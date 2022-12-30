@@ -1,27 +1,22 @@
 import { useState } from "react";
-import '../../src/assets/css/Header.css';
+import "../../src/assets/css/Header.css";
 import Logo from "../../src/assets/img/Logo.png";
-import PropTypes from 'prop-types';
-import { Anchor } from 'antd';
+import { Anchor } from "antd";
 
 const { Link } = Anchor;
 
 export default function Header(props) {
-  const [isNavExpanded, setIsNavExpanded] = useState(false)
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   return (
-    <nav id="header" className="navigation">
-      {/* <a href="/" className="brand-name">
-        Core<span>Q</span>
-      </a> */}
-      < a className="ml-7 lg-1/3" >
+    <nav className="navigation">
+      <a className="ml-7 lg-1/3">
         <img src={Logo} alt="coreQ_logo" width="84" height="36.75" />
-      </a >
-
+      </a>
       <button
         className="hamburger"
         onClick={() => {
-          setIsNavExpanded(!isNavExpanded)
+          setIsNavExpanded(!isNavExpanded);
         }}
       >
         {/* hamburger svg code... */}
@@ -43,21 +38,28 @@ export default function Header(props) {
           isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
         }
       >
-        <Anchor>
-          <ul>
-            <li><Link href="#about" title="About" /></li>
-            <li><Link href="#mission" title="Mission" /></li>
-            <li><Link href="#programs" title="Programs" /></li>
-            <li><Link href="#our team" title="Our team" /></li>
-            <li><Link href="#footer" title="Contact" /></li>
-          </ul>
-        </Anchor>
+        <ul>
+          <li>
+            <Link href="#about" title="About" />
+          </li>
+          <li>
+            <Link href="#mission" title="Mission" />
+          </li>
+          <li>
+            <Link href="#programs" title="Programs" />
+          </li>
+          <li>
+            <Link href="#our team" title="Our team" />
+          </li>
+          <li>
+            <Link href="#footer" title="Contact" />
+          </li>
+        </ul>
 
         <a className="btn" href={props.link} target="_blank">
           <button type="submit">Join Us</button>
         </a>
-
       </div>
-    </nav >
+    </nav>
   );
 }

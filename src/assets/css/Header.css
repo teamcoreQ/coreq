@@ -1,183 +1,154 @@
 .navigation {
-    display: flex;
-    height: 80px;
-    width: 100%;
-    align-items: center;
-    position: sticky;
-    padding: 0.5rem 2rem;
-    background-color: #f7f7f7;
-    color: black;
-    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+  display: flex;
+  height: 80px;
+  width: 100%;
+  align-items: center;
+  position: sticky;
+  padding: 0.5rem 2rem;
+  background-color: #f7f7f7;
+  top: 0;
+  color: black;
+  z-index: 999;
+  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
 }
 
 .brand-name {
-    text-decoration: none;
-    color: rgb(31, 31, 200);
-    font-size: 1.5rem;
-    font-weight: 200;
-    margin-left: 1rem;
+  text-decoration: none;
+  color: rgb(31, 31, 200);
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin-left: 1rem;
 }
 
 .brand-name span {
-    color: red;
-    font-size: 1.5rem;
-    font-weight: bold;
+  color: red;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .navigation-menu {
-    display: flex;
-    align-items: center;
-    margin: auto;
-    font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  font-size: 1.1rem;
 }
 
 .navigation-menu ul {
-    display: flex;
-    padding: 0;
+  display: flex;
+  padding: 0;
 }
 
 .navigation-menu li {
-    /* removes default disc bullet for li tags and applies margin to left & right side */
-    list-style-type: none;
-    margin: 0 1rem;
+  /* removes default disc bullet for li tags and applies margin to left & right side */
+  list-style-type: none;
+  margin: 0 1rem;
 }
 
-:where(.css-dev-only-do-not-override-1r7tc63).ant-anchor-wrapper .ant-anchor .ant-anchor-ink-ball {
-    position: absolute;
-    left: 0;
-    transform: translateY(-50%);
-    transition: top 0.3s ease-in-out;
-    width: 2px;
-    background-color: #f7f7f7;
+:where(.css-dev-only-do-not-override-1r7tc63).ant-anchor-wrapper
+  .ant-anchor
+  .ant-anchor-ink-ball {
+  position: absolute;
+  left: 0;
+  transform: translateY(-50%);
+  transition: top 0.3s ease-in-out;
+  width: 2px;
+  background-color: #f7f7f7;
 }
 
 .hamburger {
-    /* removes default border on button element */
-    border: 0;
-    height: 40px;
-    width: 40px;
-    padding: 0.5rem;
-    border-radius: 50%;
-    background-color: rgb(245, 56, 85);
-    cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
-    /* positions the icon to the right and center aligns it vertically */
-    position: absolute;
-    top: 50%;
-    right: 25px;
-    transform: translateY(-50%);
-    display: none;
+  /* removes default border on button element */
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: rgb(245, 56, 85);
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  /* positions the icon to the right and center aligns it vertically */
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  display: none;
 }
 
 .hamburger:hover {
-    background-color: rgb(245, 56, 85);
+  background-color: rgb(245, 56, 85);
 }
 
 .btn {
-    position: absolute;
-    right: 150px;
-    align-items: flex-end;
-    background-color: rgb(255, 255, 255);
-    border-bottom-color: rgb(245, 56, 85);
-    border-bottom-left-radius: 9999px;
-    border-bottom-right-radius: 9999px;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-left-color: rgb(245, 56, 85);
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-right-color: rgb(245, 56, 85);
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-top-color: rgb(245, 56, 85);
-    border-top-left-radius: 9999px;
-    border-top-right-radius: 9999px;
-    border-top-style: solid;
-    border-top-width: 1px;
-    box-sizing: border-box;
-    color: rgb(245, 56, 85);
-    cursor: pointer;
-    display: block;
-    font-size: 16px;
-    font-stretch: 100%;
-    font-weight: 500;
-    height: 42px;
-    letter-spacing: 0.4px;
-    line-height: 24px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    outline-color: rgba(0, 0, 0, 0);
-    outline-offset: 2px;
-    outline-style: solid;
-    outline-width: 2px;
-    padding-bottom: 8px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 8px;
-    tab-size: 4;
-    text-align: center;
-    text-indent: 0px;
-    text-rendering: auto;
-    text-shadow: none;
-    text-transform: capitalize;
-    transition-duration: 0.15s;
-    transition-property: all;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    width: 104.047px;
-    word-spacing: 0px;
-    writing-mode: horizontal-tb;
+  position: absolute;
+  right: 150px;
+  background-color: rgb(255, 255, 255);
+  border-bottom-left-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  border-color: rgb(245, 56, 85);
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+  color: rgb(245, 56, 85);
+  cursor: pointer;
+  font-weight: 400;
+  height: 42px;
+  outline-color: rgba(0, 0, 0, 0);
+  outline-offset: 2px;
+  outline-style: solid;
+  outline-width: 2px;
+  padding: 8px 20px;
+  transition-duration: 0.15s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  width: 105px;
 }
 
 .btn:hover {
-    background: rgb(245, 56, 85);
+  background: rgb(245, 56, 85);
 }
 
 @media screen and (max-width: 768px) {
-    .hamburger {
-        display: block;
-    }
+  .hamburger {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .navigation-menu ul {
-        /* navigation menu is positioned to start 60px from the top of the document (which is directly below the navbar) */
-        position:absolute;
-        top: 80px;
-        left: 0;
-        /* stacks the li tags vertically  */
-        flex-direction: column;
-        /* makes menu span full height and width */
-        width: 100%;
-        height: calc(100vh - 77px);
-        background-color: white;
-        border-top: 1px solid rgb(156, 133, 133);
-        display: none;
-    }
+  .navigation-menu ul {
+    /* navigation menu is positioned to start 60px from the top of the document (which is directly below the navbar) */
+    position: absolute;
+    top: 80px;
+    left: 0;
+    /* stacks the li tags vertically  */
+    flex-direction: column;
+    /* makes menu span full height and width */
+    width: 100%;
+    height: calc(100vh - 77px);
+    background-color: white;
+    border-top: 1px solid rgb(156, 133, 133);
+    display: none;
+    z-index: 999;
+  }
 
-    .navigation-menu.expanded ul {
-        display: block;
-    }
+  .navigation-menu.expanded ul {
+    display: block;
+  }
 
-    .navigation-menu li {
-        /* centers link text and strips off margin */
-        text-align: center;
-        margin: 0;
-    }
+  .navigation-menu li {
+    /* centers link text and strips off margin */
+    text-align: center;
+    padding: 1rem;
+  }
 
-    .navigation-menu li a {
-        color: black;
-        /* increases the surface area of the anchor tag to span the full width of the menu */
-        width: 100%;
-        padding: 1.5rem 0;
-    }
+  .navigation-menu li a {
+    color: black;
+    /* increases the surface area of the anchor tag to span the full width of the menu */
+    width: 100%;
+  }
 
-    .navigation-menu li:hover {
-        background-color: #eee;
-    }
+  .navigation-menu li:hover {
+    background-color: #eee;
+  }
 
-    .btn{
-        right: 100px;
-    }
+  .btn {
+    right: 100px;
+  }
 }
