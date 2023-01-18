@@ -5,6 +5,8 @@ import ReactLoading from "react-loading";
 
 // import photos
 import workshopPhoto1 from "../../src/assets/img/wordpressWorkshop/Workshop1.png";
+//
+import Wordpress_Workshop from "../components/Wordpress_Workshop"
 
 export default function Programs(props) {
   return (
@@ -54,10 +56,7 @@ export default function Programs(props) {
                     using WordPress.
                   </p>
                   <div className="flex items-center flex-wrap ">
-                    <a
-                      href="#"
-                      className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
-                    >
+                    <a href="{Wordpress_Workshop}" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                       Learn More
                       <svg
                         className="w-4 h-4 ml-2"
