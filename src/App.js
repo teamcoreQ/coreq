@@ -8,6 +8,8 @@ import Programs from "./components/Programs";
 import Mission from "./components/Mission";
 import HODMessage from "./components/HODMessage";
 import Partners from "./components/Partners";
+import Wordpress_Workshop from "./components/Wordpress_Workshop";
+
 
 function App() {
   return (

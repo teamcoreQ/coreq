@@ -1,0 +1,343 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+/*=============== VARIABLES CSS ===============*/
+:root {
+  /*========== Colors ==========*/
+  --hue: 240;
+  --first-color: hsl(var(--hue), 16%, 18%);
+  --first-color-alt: hsl(var(--hue), 16%, 12%);
+  --title-color: hsl(var(--hue), 8%, 15%);
+  --text-color: hsl(var(--hue), 8%, 35%);
+  --body-color: hsl(var(--hue), 100%, 99%);
+  --container-color: #FFF;
+
+  /*========== Font and typography ==========*/
+  --body-font: 'Poppins', sans-serif;
+  --big-font-size: 1.5rem;
+  --normal-font-size: .938rem;
+
+  /*========== z index ==========*/
+  --z-modal: 1000;
+}
+
+@media screen and (min-width: 968px) {
+  :root {
+    --big-font-size: 1.75rem;
+    --normal-font-size: 1rem;
+  }
+}
+h2{
+color:  red;
+}
+/*=============== BASE ===============*/
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+body{
+  background-color: var(--body-color);
+  color: var(--text-color);
+  position: relative;
+}
+/* 
+button{
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color:  rgb(245, 56, 85);
+} */
+
+/* img{
+  max-width: 100%;
+  height: auto;
+} */
+
+/*=============== MODAL ===============*/
+.container{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.modal{
+  height: 100vh;
+
+  display: grid;
+  place-items: center;
+}
+
+/* .modal__button{
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #FFF;
+  padding: 1rem 1.25rem;
+  border-radius: .5rem;
+  transition: .3s;
+} */
+
+.modal__button:hover{
+  background-color: var(--first-color-alt);
+}
+
+.modal__container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: hsla(var(--hue), 18%, 75%, .8);
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-items: flex-end;
+  overflow: hidden;
+  transition: all .3s;
+  z-index: var(--z-modal);
+  visibility: hidden;
+  opacity: 0;
+
+  /*=== Effect 3 ===*/
+  /* perspective: 1000px; */
+}
+
+.modal__content{
+  position: relative;
+  background-color: var(--container-color);
+  text-align: center;
+  padding: 3rem 2rem 2rem;
+  border-radius: 1rem 1rem 0 0;
+  transition: all .3s;
+
+  /*=== Effect 1 ===*/
+  transform: translateY(10%);
+
+  /*=== Effect 2 ===*/
+  /* transform: scale(.5) translateY(10%); */
+
+  /*=== Effect 3 ===*/
+  /* transform: rotateX(65deg) scale(.75) translateY(10%);
+  transform-origin: 50% 100%; */
+}
+
+.modal__img{
+  width: 400px;
+  margin-bottom: .75rem;
+  
+}
+.modal__img:hover{
+  transform: scale(1.1);
+}
+
+.modal__close{
+  display: inline-flex;
+  background-color: red;
+  border-radius: .25rem;
+  color: #FFF;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  cursor: pointer;
+}
+
+.modal__title{
+  font-size: var(--big-font-size);
+  color: var(--title-color);
+  font-weight: 500;
+}
+
+.modal__description{
+  margin-bottom: 1.5rem;
+}
+
+.modal__button-width{
+  width: 90%;
+}
+
+.modal__button-link{
+  display: block;
+  margin: 1rem auto 0;
+  background-color: transparent;
+  color: var(--first-color);
+  font-weight: 500;
+}
+
+/* Show modal */
+.show-modal{
+  visibility: visible;
+  opacity: 1;
+}
+
+.show-modal .modal__content{
+  /*=== Effect 1 ===*/
+  transform: translateY(0);
+
+  /*=== Effect 2 ===*/
+  /* transform: scale(1) translateY(0); */
+
+  /*=== Effect 3 ===*/
+  /* transform: rotateX(0) scale(1) translateY(0); */
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (min-width: 576px){
+  .modal__content{
+    margin: auto;
+    width: 780px;
+    border-radius: 1.25rem;
+  }
+
+  .modal__img{
+    width: 300px;
+  }
+     #about-workshop, #instructor{
+     
+      float: left;
+      width: 200px;
+    }
+      #workshop-photo, #gallerytop{
+      margin-left: 120px;
+
+    }
+    #div{
+      clear: both;
+    }
+  }
+
+/* gallery Section*/
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+::selection{
+  color: #fff;
+  background:rgb(245, 56, 85);
+}
+
+.wrapper{
+  max-width: 600px;
+}
+.gallery{
+  padding-left: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery .image{
+  padding: 2px;
+  width: calc(100% / 5);
+}
+.gallery .image span{
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+.gallery .image img{
+  width: 100%;
+  vertical-align: middle;
+  transition: all 0.3s ease;
+}
+.gallery .image:hover img{
+  transform: scale(2);
+}
+
+.preview-box{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.9);
+  background: #fff;
+  max-width: 400px;
+  width: 70%;
+  z-index: 5;
+  opacity: 0;
+  pointer-events: none;
+  border-radius: 3px;
+  padding: 0 5px 5px 5px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
+.preview-box.show{
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
+  transition: all 0.3s ease;
+}
+.preview-box .details{
+  display: flex;
+  align-items: center;
+  padding: 12px 15px 12px 10px;
+  justify-content: space-between;
+}
+.preview-box .details .title{
+  display: flex;
+  font-size: 18px;
+  /* font-weight: 400; */
+}
+.details .title p{
+  margin: 0 5px;
+}
+.details .title p.current-img{
+  font-weight: 500;
+}
+.details .icon{
+  color: red;
+  font-size: 20px;
+  cursor: pointer;
+}
+.preview-box .image-box{
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+.image-box .slide{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: red;
+  font-size: 30px;
+  cursor: pointer;
+  height: 50px;
+  width: 60px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 20px;
+}
+.slide.prev{
+  left: 0px;
+}
+.slide.next{
+  right: 0px;
+}
+.image-box img{
+  width: 100%;
+  border-radius: 0 0 3px 3px;
+}
+.shadow{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  display: none;
+  border-radius: 20px;
+  background: rgba(0,0,0,0.45);
+}
+
+@media(max-width: 1000px){
+  .gallery .image{
+    width: calc(100% / 4);
+  }
+}
+@media(max-width: 800px){
+  .gallery .image{
+    padding: 1px;
+      width: calc(100% / 6);
+  }
+} 
