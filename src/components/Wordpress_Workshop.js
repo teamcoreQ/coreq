@@ -29,6 +29,7 @@ export default function Wordpress_Workshop() {
    })
   }
  }
+ 
  showModal('open-modal', 'modal-container')
 
  /*=============== CLOSE MODAL ===============*/
