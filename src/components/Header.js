@@ -9,7 +9,7 @@ export default function Header(props) {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   return (
-    <nav className="navigation">
+    <nav className="navigation" style={{position: fixed;top : 0;}}>
       <a className="ml-7 lg-1/3">
         <img src={Logo} alt="coreQ_logo" width="84" height="36.75" />
       </a>
